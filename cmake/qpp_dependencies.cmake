@@ -3,7 +3,7 @@
 
 #### Eigen3
 message(STATUS "Detecting Eigen3")
-set(EIGEN3_INSTALL_DIR "" CACHE PATH "Path to Eigen3")
+set(EIGEN3_INSTALL_DIR "" CACHE PATH "/usr/local/include/eigen3/")
 #### Location manually specified
 if (NOT ${EIGEN3_INSTALL_DIR} STREQUAL "")
     if (IS_DIRECTORY ${EIGEN3_INSTALL_DIR})
